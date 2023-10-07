@@ -249,7 +249,7 @@ const Chat = () => {
                 let errorChatMsg: ChatMessage = {
                     id: uuid(),
                     role: "error",
-                    content: "There was an error generating a response. Chat history can't be saved at this time. If the problem persists, please contact the site administrator.",
+                    content: "There was an error generating a response. Chat history can't be saved at this time. If the problem persists, please contact the site administrator. Also Stefan!",
                     date: new Date().toISOString()
                 }
                 let resultConversation;
